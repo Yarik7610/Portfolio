@@ -1,0 +1,122 @@
+:root {
+  --dark-green: #138a36;
+  --light-green: #91f086;
+  --main-green: #00ff2b;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: initial;
+  font-style: normal;
+  font-weight: 500;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  background-color: black;
+  color: var(--main-green);
+  ::selection {
+    background: var(--main-green);
+    color: white;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#app {
+  opacity: 0;
+}
+
+.fade-in {
+  display: block;
+  animation: fadeIn 2.45s forwards;
+}
+.fade-out {
+  animation: fadeOut 2.25s forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+p,
+ul,
+pre {
+  margin: 0;
+}
+pre {
+  font-size: inherit;
+  font-family: "Roboto Mono", monospace;
+  white-space: pre-wrap;
+}
+a:active,
+a:hover,
+a {
+  color: var(--main-green);
+}
+li {
+  list-style: none;
+}
+
+.padded {
+  padding: 10px;
+  word-break: break-all;
+}
+
+.cmd-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: fit-content;
+}
+.cmd-fake-container {
+  word-break: break-all;
+  p {
+    display: inline;
+  }
+}
+
+#input {
+  background: transparent;
+  width: 100%;
+  border: none;
+  color: inherit;
+  outline: none;
+  font: inherit;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.fakeInput {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+  background-color: var(--light-green);
+  color: black;
+}
+
+.path {
+  background-color: var(--dark-green);
+  padding: 0 5px;
+  color: black;
+}
