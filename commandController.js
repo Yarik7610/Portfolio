@@ -15,7 +15,8 @@ class CommandController {
     sorting algorithms) and solved some tasks on LeetCode in prime time.`
   projectsData = [
     "Here is the list of the best projects, you can watch them in details via link. All of them are web apps:",
-    "Messenger vith real time message sending              Client: <a target='_blank' href='https://github.com/Yarik7610/messenger-client'>https://github.com/Yarik7610/messenger-client</span></a>, Server: <a target='_blank' href='https://github.com/Yarik7610/messenger-server'>https://github.com/Yarik7610/messenger-server</span></a>",
+    "Colly - collections web-site                          <a target='_blank' href='https://github.com/Yarik7610/colly'>https://github.com/Yarik7610/colly</span>",
+    "Messenger with real time message sending              Client: <a target='_blank' href='https://github.com/Yarik7610/messenger-client'>https://github.com/Yarik7610/messenger-client</span></a>, Server: <a target='_blank' href='https://github.com/Yarik7610/messenger-server'>https://github.com/Yarik7610/messenger-server</span></a>",
     "Todo - make your todolists, complete your tasks       Client: <a target='_blank' href='https://github.com/Yarik7610/todo-client'>https://github.com/Yarik7610/todo-client</span></a>, Server: <a target='_blank' href='https://github.com/Yarik7610/todo-server'>https://github.com/Yarik7610/todo-server</span>",
     "Interlinked - social network                          <a target='_blank' href='https://github.com/Yarik7610/interlinked'>https://github.com/Yarik7610/interlinked</span>",
     "React-pizza-v2 - pizza store                          <a target='_blank' href='https://github.com/Yarik7610/react-pizza-v2'>https://github.com/Yarik7610/react-pizza-v2</span>",
@@ -31,11 +32,22 @@ class CommandController {
       "Redux / Redux Toolkit",
       "TypeScript",
       "Next.js",
-      "Sass, Tailwind CSS",
-      "Socket.IO (Client)"
+      "Sass, Tailwind CSS, Shadcn",
+      "Socket.IO (Client)",
+      "Zod (Server and client validation)"
     ],
     "Now here is the list of all technologies that i use in backend part:",
-    ["Express.js", "MongoDB", "MySQL", "JWT token library and auth functionality", "Socket.IO (Server)"],
+    [
+      "Express.js",
+      "MongoDB",
+      "MySQL",
+      "Prisma ORM",
+      "PostgreSQL",
+      "JWT token library and auth functionality",
+      "Auth.js",
+      "Socket.IO (Server)",
+      "Zod (Server and client validation)"
+    ],
     `Also i touched upon Python, Java, C#, C++ and Rust (my favourite and most learned from this list).`
   ]
   socialsData = [
